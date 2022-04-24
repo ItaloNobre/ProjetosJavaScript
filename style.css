@@ -1,0 +1,13 @@
+body{
+    background-color: #cee0ce;
+
+}
+#imagem{
+   width: 150px;
+  height: 200px;
+  object-fit: none; 
+  left: 100px;
+  object-position: 175 10%; 
+  
+
+}
