@@ -1,1 +1,2 @@
-meu primeiro systema do Git., alterei, mais uma linha aqui. 
+Exercicio para Pratica de JavaScript, esse exercício se consiste em uma Tabela De Calculo de IMC, 
+na qual O Usuário entra com os Dados necessarios e o sistema informa se ele está abaixo do Peso,normal, acima, ou Obeso.
