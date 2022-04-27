@@ -9,11 +9,17 @@ function recebeEventoForm (evento){
     
     evento.preventDefault();
     const nome = document.querySelector('.nome');
+    
     const sobrenome = document.querySelector('.sobrenome');
     const peso = document.querySelector('.peso');
     const altura = document.querySelector('.altura');
-    const altura1 = Number(altura.value);
-    const peso1 = Number(peso.value)
+    try { var altura1 = altura.value.replace(",","."); } catch(err){ var altura1 = altura.value;}
+    try { var peso1 = peso.value.replace(",","."); } catch(err){ var peso1 = pesoç.value;}
+    
+    console.log(altura1,peso1);
+     
+    var altura1 = parseFloat(altura1);
+    var peso1 = parseFloat(peso1);
     const imcTotal = peso1 / (altura1 * 2);
        
     if (imcTotal > 40){
