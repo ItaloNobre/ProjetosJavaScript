@@ -20,7 +20,7 @@ function recebeEventoForm (evento){
      
     var altura1 = parseFloat(altura1);
     var peso1 = parseFloat(peso1);
-    const imcTotal = peso1 / (altura1 * 2);
+    const imcTotal = peso1 / (altura1 ** 2);
        
     if (imcTotal > 40){
         resulImc = "OBESIDADE GRAVE";
@@ -30,7 +30,7 @@ function recebeEventoForm (evento){
 
     }else if(imcTotal > 25){
         resulImc = "SOBREPESO";
-    }else if(imcTotal > 18){
+    }else if(imcTotal > 18.5){
             resulImc = "NORMAL";
     }else{
         resulImc = "ABAIXO DO PESO";
